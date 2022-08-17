@@ -1,0 +1,112 @@
+
+h1{
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+p{
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  
+  }
+li{
+    float: right;
+    padding: 15px;
+    font-size:20px;
+    
+}
+.list{
+    width: 100%;
+}
+.list #logo, .list #logo2{
+    float: left;
+    font-size:30px;
+    font-weight: bold;
+}
+.list #logo2{
+    align-items: center;
+}
+
+a:link{
+    text-decoration: none !important;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar li a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar li a:hover{
+    color:#8E94ED;
+    transition:0.3;
+  }
+.list{
+    display: flex;
+    float: right;
+}
+body{
+    background-color: #EFEDFF;
+    margin: 0;
+    color: black;
+    height: 100%;
+}
+body{
+    background-color: #EFEDFF;
+    overflow-x: hidden;
+    margin: 0;
+    color: black;
+    height: 100%;
+}
+#subheader1{
+    background-color: #999fee;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#subheader1 h1{
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
+#div1 {
+    display: flex;
+  }
+  .part1{
+    flex: 50%;
+    color: black;
+  }
+  .part1 .icon2{
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5%;
+  }
+  .part1 .words h1{
+    padding-right: 10%;
+    padding-top: 5%;
+  }
+
+/*animation*/
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

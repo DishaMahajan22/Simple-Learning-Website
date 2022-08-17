@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>Simple Learning</title>
+        <link rel="stylesheet" href="signup.css">
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <link rel="stylesheet" href="https://use.typekit.net/eiz0lvg.css">
+        <link rel="stylesheet" href="https://use.typekit.net/eiz0lvg.css">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </header>
+    <div class="navbar">
+        <div class="list">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li id ="logo2"><a href=""><span class="iconify" data-icon="bx:book-reader"data-width="30" data-height="30"></span></li>
+            <li id="logo">Simple Learning</a></li>
+          </ul>
+        </div>
+    </div>
+    <body>
+        <div class="header">
+            <h1>Register for Classes</h1>
+        </div>
+        </div>
+        <form action="connection.php"method="POST">
+            <div class="mainheader">
+                <h2>Student Information</h2>
+            </div>
+    
+            <div class="subheader">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="childName"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="ChildLastname"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="childAge">
+            
+        <label>
+            <h2>Class Selection</h2>
+        </label>
+
+
+
+            <h3>Math Classes</h3>
+
+
+       
+        
+        <p>Please only select two classes at most!</p>
+        <label for="class1">
+        <input type="checkbox" id="mclass1" name="mclass[]" value="addition/subtraction whole nums (one digit)">
+        Addition and Subtraction (One Digit)
+        </label><br>
+
+        <label for="class2"> 
+        <input type="checkbox" id="mclass2" name="mclass[]" value="Basic Shapes of 2-D Geometry">
+        Basic Shapes of 2-D Geometry</label><br>
+
+        <label for="class3"> 
+        <input type="checkbox" id="mclass3" name="mclass[]" value="Place Values to the 100’s">
+        Place Values to the 100’s</label><br>
+
+            <h3>English Classes</h3>
+
+       
+        <p>Please only select two classes at most!</p>
+        <label for="class1">
+        <input type="checkbox" id="eclass1" name="eclass[]" value="short stories">
+        Reading Short Stories and Understanding the Meaning</label><br>
+
+        <label for="class2">
+        <input type="checkbox" id="eclass2" name="eclass[]" value="Descriptive Writing">
+         Descriptive Writing</label><br>
+
+         <label for="class3"> 
+        <input type="checkbox" id="eclass3" name="eclass[]" value="Thesis Statements">
+        Thesis Statements</label><br>
+
+        <label for="class3"> 
+        <input type="checkbox" id="eclass4" name="eclass[]" value="Introduction to Grammar">
+       Introduction to Grammar</label><br>
+
+
+     
+            <h3>Science Classes</h3>
+
+
+
+        
+        <p>Please only select two classes at most!</p>
+        <label for="class1">
+        <input type="checkbox" id="sclass1" name="sclass[]" value="Water Cycle">
+       Water Cycle</label><br>
+       <label for="class2">
+        <input type="checkbox" id="sclass2" name="sclass[]" value="Photosynthesis">
+        Photosynthesis</label><br>
+        <label for="class3">
+        <input type="checkbox" id="sclass3" name="sclass[]" value="Rock Formations">
+        Rock Formations</label><br>
+
+
+        
+            <h3>History Classes</h3>
+
+
+      
+        <p>Please only select one class!</p>
+
+        <label for="class1">
+        <input type="checkbox" id="hclass1" name="hclass[]" value="Overview of World War I">
+        Overview of World War I</label><br>
+
+        <label for="class2"> 
+        <input type="checkbox" id="hclass2" name="hclass[]" value="Overview of World War II">
+      Overview of World War II</label><br>
+
+
+      
+            <h2>Guardian Information</h2>
+
+
+        <label for="Gfname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="Glname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="Gage">Age:</label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="Gmail">Email</label><br>
+        <input type="email" id="mail" name="mail"><br>
+        <label for="Gnumber">Phone Numer:</label><br>
+        <input type="tel" id="num" name="num">
+        <br>
+        <br>
+        <button type="submit" >Submit</button>
+    </form>
+    </body>
+</html>

@@ -1,0 +1,148 @@
+h1{
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 3%;
+
+}
+p{
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  
+  }
+li{
+    float: right;
+    padding: 15px;
+    font-size:20px;
+    
+}
+.list{
+    width: 100%;
+}
+.list #logo, .list #logo2{
+    float: left;
+    font-size:30px;
+    font-weight: bold;
+}
+.list #logo2{
+    align-items: center;
+}
+
+a:link{
+    text-decoration: none !important;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar li a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar li a:hover{
+    color:#8E94ED;
+    transition:0.3;
+  }
+.list{
+    display: flex;
+    float: right;
+}
+body{
+    background-color: #EFEDFF;
+    overflow-x: hidden;
+    margin: 0;
+    color: black;
+    height: 100%;
+}
+.header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #999fee;
+    color: white;
+}
+.header h1{
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+form{
+    padding-left: 10%;
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=text] {
+    box-sizing: border-box;
+    padding: 5px;
+    margin:10px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+input#age{
+    box-sizing: border-box;
+    padding: 5px;
+    margin:10px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+input#mail{
+    box-sizing: border-box;
+    padding: 5px;
+    margin:10px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+input#num{
+    box-sizing: border-box;
+    padding: 5px;
+    margin:10px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+
+form label{
+    display: block;
+
+}
+button{
+    margin-bottom: 30%;
+    border: none;
+    border-radius:10px;
+    background-color: #999fee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    padding:5px;
+    min-height:20px; 
+    width: auto;
+}
+button:hover{
+    cursor:pointer;
+    background-color:#abafe7;
+      transition: 0.7s;
+}
+input[type="checkbox"] {
+    margin:10px 0;
+  }
+
+  /*Animation*/
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
